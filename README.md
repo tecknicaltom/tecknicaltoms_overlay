@@ -8,4 +8,6 @@ sync-type = git
 sync-uri = https://github.com/tecknicaltom/tecknicaltoms_overlay.git
 ```
 
-And update to the new profile.
+Do a full `emerge --sync` or selective `emaint sync -r tecknicaltoms_overlay`.
+
+Use `eselect profile` to update to the new profile.
