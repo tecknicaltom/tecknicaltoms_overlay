@@ -2,4 +2,23 @@
 PYTHON_TARGETS="-python2_7 python3_6"
 PYTHON_SINGLE_TARGET="-python2_7 python3_6"
 
-USE="$USE -python"
+USE="
+-alsa
+-btrfs
+X
+apparmor
+cairo
+dbus
+exif
+jpeg
+libkms
+opengl
+png
+pulseaudio
+spell
+sqlite
+tiff
+vim-syntax
+vorbis
+xmp
+"
