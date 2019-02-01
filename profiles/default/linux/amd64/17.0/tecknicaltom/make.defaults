@@ -1,0 +1,4 @@
+# Try to use only Python 3.6 and avoid 2.7
+PYTHON_TARGETS="-python2_7 python3_6"
+PYTHON_SINGLE_TARGET="-python2_7 python3_6"
+
