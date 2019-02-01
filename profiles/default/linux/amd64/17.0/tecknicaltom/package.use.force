@@ -1,0 +1,3 @@
+# Override -alsa so that PulseAudio can output to ALSA
+media-sound/pulseaudio alsa bluetooth
+
