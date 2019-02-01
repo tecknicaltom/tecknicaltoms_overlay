@@ -5,6 +5,7 @@ PYTHON_SINGLE_TARGET="-python2_7 python3_6"
 USE="
 -alsa
 -btrfs
+-python
 X
 apparmor
 cairo
