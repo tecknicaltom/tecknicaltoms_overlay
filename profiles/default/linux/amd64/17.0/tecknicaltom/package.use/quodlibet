@@ -1,3 +1,4 @@
+media-sound/quodlibet python_targets_python2_7
 dev-python/dbus-python python_targets_python2_7
 media-libs/mutagen python_targets_python2_7
 dev-python/pygobject python_targets_python2_7
