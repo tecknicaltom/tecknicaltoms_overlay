@@ -1,0 +1,31 @@
+x11-plugins/bfm gkrellm
+sys-kernel/genkernel-next cryptsetup plymouth
+x11-drivers/nvidia-drivers -abi_x86_32 acpi
+sys-boot/plymouth -gtk -pango
+media-sound/pulseaudio alsa bluetooth
+x11-terms/rxvt-unicode 256-color blink buffer-on-clear fading-colors focused-urgency font-styles mousewheel perl secondary-wheel wcwidth xft -vanilla
+media-sound/sox encode flac
+media-libs/libpng apng
+app-editors/gvim gtk python session
+app-editors/vim python vim-pager
+x11-misc/xscreensaver offensive opengl -perl
+
+# dbus support brings in dconf
+dev-libs/glib -dbus
+
+# TODO: document this
+x11-libs/libxcb xkb
+
+# Packages for a functioning Python 2.7 for dev work
+dev-lang/python-exec python_targets_python2_7
+dev-python/virtualenv python_targets_python2_7
+dev-python/setuptools python_targets_python2_7
+dev-python/certifi python_targets_python2_7
+
+# quodlibet is still Python 2.7, so allow it and its deps
+media-sound/quodlibet python_targets_python2_7
+dev-python/dbus-python python_targets_python2_7
+media-libs/mutagen python_targets_python2_7
+dev-python/pygobject python_targets_python2_7
+dev-python/feedparser python_targets_python2_7
+dev-python/pycairo python_targets_python2_7
