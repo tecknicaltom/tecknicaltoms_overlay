@@ -1,4 +1,0 @@
-# mask packages from the pentoo overlay that we want to use the main gentoo versions of
-
-sys-power/acpid::pentoo
-virtual/linux-sources::pentoo
