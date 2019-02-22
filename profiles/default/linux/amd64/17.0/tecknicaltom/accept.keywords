@@ -1,0 +1,21 @@
+# blueman
+=net-wireless/blueman-2.1_alpha3
+
+# dropbox
+=net-misc/dropbox-58.3.88-r1
+
+# efitools
+=app-crypt/efitools-1.8.1
+
+# purple-discord
+=x11-plugins/purple-discord-9999
+
+# restic
+=app-backup/restic-0.9.3
+
+# stow
+=app-admin/stow-2.2.2-r1
+
+# youtube-dl
+net-misc/youtube-dl ~amd64
+
