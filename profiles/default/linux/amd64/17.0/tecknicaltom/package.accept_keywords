@@ -10,6 +10,9 @@
 # purple-discord
 =x11-plugins/purple-discord-9999
 
+# quodlibet
+=media-sound/quodlibet-4.1.0
+
 # restic
 =app-backup/restic-0.9.3
 
