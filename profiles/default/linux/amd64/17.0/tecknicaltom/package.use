@@ -33,3 +33,6 @@ sys-devel/clang python_targets_python2_7
 
 # a requirement of dropbox
 dev-libs/libpcre2 pcre16
+
+# to enable regex capabilities in jq
+app-misc/jq oniguruma
