@@ -39,3 +39,6 @@ app-misc/jq oniguruma
 
 # ability to download torrents with aria2
 net-misc/aria2 bittorrent
+
+# python support for GDB (for e.g. PEDA)
+sys-devel/gdb python
