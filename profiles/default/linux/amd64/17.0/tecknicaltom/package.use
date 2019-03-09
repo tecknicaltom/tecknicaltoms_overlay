@@ -36,3 +36,6 @@ dev-libs/libpcre2 pcre16
 
 # to enable regex capabilities in jq
 app-misc/jq oniguruma
+
+# ability to download torrents with aria2
+net-misc/aria2 bittorrent
