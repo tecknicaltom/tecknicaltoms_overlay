@@ -42,3 +42,6 @@ net-misc/aria2 bittorrent
 
 # python support for GDB (for e.g. PEDA)
 sys-devel/gdb python
+
+# add replaygain tags when ripping CDs
+media-sound/abcde replaygain
