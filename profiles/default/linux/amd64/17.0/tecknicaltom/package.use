@@ -45,3 +45,9 @@ sys-devel/gdb python
 
 # add replaygain tags when ripping CDs
 media-sound/abcde replaygain
+
+# for chromium
+dev-libs/libxml2 icu
+media-libs/harfbuzz icu
+net-libs/nodejs icu inspector python_targets_python2_7
+sys-libs/zlib minizip
