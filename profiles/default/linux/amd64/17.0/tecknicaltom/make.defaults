@@ -30,3 +30,17 @@ vim-syntax
 vorbis
 xmp
 "
+
+# portage doesn't read package.license from the profile directory
+ACCEPT_LICENSE="
+-* @FREE
+media-fonts/aquafont aquafont
+media-fonts/corefonts MSttfEULA
+media-fonts/font-bh-ttf bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/tengwar-fonts free-noncomm
+net-misc/dropbox CC-BY-ND-3.0 dropbox
+sys-kernel/linux-firmware no-source-code linux-firmware
+x11-drivers/nvidia-drivers NVIDIA-r2
+"
