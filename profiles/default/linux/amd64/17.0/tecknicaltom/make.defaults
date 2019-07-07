@@ -34,6 +34,8 @@ xmp
 # portage doesn't read package.license from the profile directory
 ACCEPT_LICENSE="
 -* @FREE
+
+*/* freedist
 media-fonts/aquafont aquafont
 media-fonts/corefonts MSttfEULA
 media-fonts/font-bh-ttf bh-luxi
