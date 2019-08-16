@@ -7,7 +7,7 @@ x11-terms/rxvt-unicode 256-color blink buffer-on-clear fading-colors focused-urg
 media-sound/sox encode flac
 media-libs/libpng apng
 app-editors/gvim gtk python session
-app-editors/vim python vim-pager
+app-editors/vim python terminal vim-pager
 x11-misc/xscreensaver offensive opengl -perl
 
 # dbus support brings in dconf
