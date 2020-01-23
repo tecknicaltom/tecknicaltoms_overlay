@@ -14,7 +14,7 @@
 =media-sound/quodlibet-4.1.0
 
 # restic
-=app-backup/restic-0.9.3
+=app-backup/restic-0.9.6
 
 # stow
 =app-admin/stow-2.2.2-r1
