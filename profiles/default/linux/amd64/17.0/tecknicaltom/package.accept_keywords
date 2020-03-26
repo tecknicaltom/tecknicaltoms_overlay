@@ -26,4 +26,4 @@ net-misc/youtube-dl ~amd64
 =app-portage/g-cpan-9999 **
 
 # layman needs a newer version for python 3.7 support
-=app-portage/layman-2.4.2-r1
+=app-portage/layman-2.4.2-r2
