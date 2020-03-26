@@ -48,3 +48,6 @@ dev-libs/libxml2 icu
 media-libs/harfbuzz icu
 net-libs/nodejs icu inspector python_targets_python2_7
 sys-libs/zlib minizip
+
+# prevent some features of audacity. I don't think I'll need them anytime soon
+media-sound/audacity -lv2 -ladspa
