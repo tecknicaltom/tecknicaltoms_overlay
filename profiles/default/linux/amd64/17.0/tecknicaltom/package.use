@@ -51,3 +51,6 @@ sys-libs/zlib minizip
 
 # prevent some features of audacity. I don't think I'll need them anytime soon
 media-sound/audacity -lv2 -ladspa
+
+# udev appears to only be for the alsa backend
+media-libs/libcanberra -udev
