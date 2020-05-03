@@ -1,2 +1,0 @@
-# mask Python 3.8 until python 3.8 use flags are unmasked
-dev-lang/python:3.8
