@@ -55,8 +55,5 @@ media-sound/audacity -lv2 -ladspa
 # udev appears to only be for the alsa backend
 media-libs/libcanberra -udev
 
-# disable Debian's installkernel
-sys-apps/debianutils -installkernel
-
 # don't break LUKS v1 backwards compatibility
 sys-fs/cryptsetup luks1_default
