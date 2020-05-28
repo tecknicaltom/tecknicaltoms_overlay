@@ -4,11 +4,11 @@
 
 EAPI=5
 
-inherit eutils git-2
+inherit eutils git-r3
 
 DESCRIPTION="Automatically select a display configuration based on connected devices"
 HOMEPAGE="https://github.com/phillipberndt/autorandr"
-EGIT_REPO_URI="git://github.com/phillipberndt/autorandr.git"
+EGIT_REPO_URI="https://github.com/phillipberndt/autorandr.git"
 SRC_URI=""
 
 LICENSE="GPL-3"
