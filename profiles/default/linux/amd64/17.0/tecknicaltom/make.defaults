@@ -6,6 +6,7 @@ RUBY_TARGETS="-ruby24 ruby25"
 USE="
 -alsa
 -btrfs
+-elogind
 -python
 X
 apparmor
