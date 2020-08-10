@@ -48,3 +48,6 @@ media-libs/libcanberra -udev
 
 # don't break LUKS v1 backwards compatibility
 sys-fs/cryptsetup luks1_default
+
+# don't use kbd's version of vlock
+sys-apps/kbd -pam
