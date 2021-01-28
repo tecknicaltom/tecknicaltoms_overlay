@@ -51,3 +51,6 @@ sys-fs/cryptsetup luks1_default
 
 # don't use kbd's version of vlock
 sys-apps/kbd -pam
+
+# continue to use a suid xorg for now
+x11-base/xorg-server suid
