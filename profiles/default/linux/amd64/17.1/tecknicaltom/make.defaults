@@ -1,0 +1,51 @@
+# Try to use only Python 3.7 and avoid 2.7
+PYTHON_TARGETS="-python2_7 -python3_6 python3_7 -python3_8"
+PYTHON_SINGLE_TARGET="-python2_7 -python3_6 python3_7 -python3_8"
+RUBY_TARGETS="-ruby24 ruby25"
+
+USE="
+-alsa
+-btrfs
+-elogind
+-python
+X
+apparmor
+cairo
+dbus
+exif
+flac
+jpeg
+libkms
+mp3
+mpeg
+ogg
+opengl
+png
+pulseaudio
+spell
+sqlite
+theora
+tiff
+truetype
+udev
+v4l
+vim-syntax
+vorbis
+xmp
+"
+
+# portage doesn't read package.license from the profile directory
+ACCEPT_LICENSE="
+-* @FREE
+
+*/* freedist
+media-fonts/aquafont aquafont
+media-fonts/corefonts MSttfEULA
+media-fonts/font-bh-ttf bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/font-bh-type1 bh-luxi
+media-fonts/tengwar-fonts free-noncomm
+net-misc/dropbox CC-BY-ND-3.0 dropbox
+sys-kernel/linux-firmware no-source-code linux-firmware
+x11-drivers/nvidia-drivers NVIDIA-r2
+"
