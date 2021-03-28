@@ -54,3 +54,7 @@ sys-apps/kbd -pam
 
 # continue to use a suid xorg for now
 x11-base/xorg-server suid
+
+# firefox depends on media-libs/libvpx[postproc]
+media-libs/libvpx postproc
+
