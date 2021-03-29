@@ -30,3 +30,6 @@ net-misc/youtube-dl ~amd64
 
 # libapparmor r1 ebuild to support python 3.7
 =sys-libs/libapparmor-2.13.3-r1
+
+# unmask all Zoom versions
+net-im/zoom
