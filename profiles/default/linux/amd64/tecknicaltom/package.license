@@ -1,2 +1,1 @@
-net-analyzer/nmap NPSL
-net-im/zoom all-rights-reserved
+# Portage doesn't appear to read package.license from the overlay, configuration of ACCEPT_LICENSE is done in make.defaults
