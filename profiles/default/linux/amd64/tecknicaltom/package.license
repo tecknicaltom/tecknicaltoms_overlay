@@ -6,6 +6,7 @@ media-fonts/font-bh-type1 bh-luxi
 media-fonts/font-bh-type1 bh-luxi
 media-fonts/tengwar-fonts free-noncomm
 net-analyzer/nmap NPSL
+net-im/slack all-rights-reserved
 net-im/zoom all-rights-reserved
 net-misc/dropbox CC-BY-ND-3.0 dropbox
 sys-kernel/linux-firmware no-source-code linux-firmware

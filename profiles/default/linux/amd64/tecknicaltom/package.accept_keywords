@@ -33,3 +33,6 @@ net-misc/youtube-dl ~amd64
 
 # unmask all Zoom versions
 net-im/zoom
+
+# unmask all Slack versions
+net-im/slack
