@@ -11,3 +11,10 @@ net-im/zoom all-rights-reserved
 net-misc/dropbox CC-BY-ND-3.0 dropbox
 sys-kernel/linux-firmware no-source-code linux-firmware
 x11-drivers/nvidia-drivers NVIDIA-r2
+
+# old contents that may/may not be necessary
+# media-libs/fdk-aac FraunhoferFDK
+# app-arch/unrar unRAR
+# sys-kernel/linux-firmware linux-fw-redistributable
+# net-analyzer/nmap NPSL
+# x11-themes/gkrellm-themes all-rights-reserved
