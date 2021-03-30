@@ -1,4 +1,5 @@
 # Portage doesn't appear to read package.license from the overlay. Copy this to /etc/portage/
+app-arch/unrar unRAR
 media-fonts/aquafont aquafont
 media-fonts/corefonts MSttfEULA
 media-fonts/font-bh-ttf bh-luxi
@@ -9,12 +10,10 @@ net-analyzer/nmap NPSL
 net-im/slack all-rights-reserved
 net-im/zoom all-rights-reserved
 net-misc/dropbox CC-BY-ND-3.0 dropbox
-sys-kernel/linux-firmware no-source-code linux-firmware
+sys-kernel/linux-firmware no-source-code linux-fw-redistributable
 x11-drivers/nvidia-drivers NVIDIA-r2
+x11-themes/gkrellm-themes all-rights-reserved
 
 # old contents that may/may not be necessary
 # media-libs/fdk-aac FraunhoferFDK
-# app-arch/unrar unRAR
-# sys-kernel/linux-firmware linux-fw-redistributable
 # net-analyzer/nmap NPSL
-# x11-themes/gkrellm-themes all-rights-reserved
