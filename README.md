@@ -3,7 +3,7 @@ Save the following to `/etc/portage/repos.conf/tecknicaltom.conf`:
 ```
 [tecknicaltoms_overlay]
 auto-sync = yes
-location = /usr/local/portage/overlays/tecknicaltom
+location = /var/db/repos/tecknicaltom
 sync-type = git
 sync-uri = https://github.com/tecknicaltom/tecknicaltoms_overlay.git
 ```
