@@ -1,0 +1,11 @@
+--- a/Makefile
++++ b/Makefile
+@@ -25,7 +25,7 @@ endif
+ 
+ GKRELLM_CFLAGS	= $(shell pkg-config gkrellm --cflags)
+ GKRELLM_LDFLAGS	= $(shell pkg-config gkrellm --libs)
+-CFLAGS	= -fPIC -Wall -Werror -g $(GKRELLM_CFLAGS) -DVERSION=\"$(VERSION)\"
++CFLAGS	= -fPIC -Wall -Werror -g $(GKRELLM_CFLAGS) -DVERSION=\"$(VERSION)\" -Wno-deprecated-declarations
+ LDFLAGS	= -shared $(GKRELLM_LDFLAGS)
+ 
+ OBJS	= list.o config.o gkrellm-tz.o
