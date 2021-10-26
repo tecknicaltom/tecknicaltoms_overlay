@@ -58,3 +58,6 @@ x11-base/xorg-server suid
 # firefox depends on media-libs/libvpx[postproc]
 media-libs/libvpx postproc
 
+# remove sendmail functionality from sudo
+app-admin/sudo -sendmail
+
