@@ -61,3 +61,6 @@ media-libs/libvpx postproc
 # remove sendmail functionality from sudo
 app-admin/sudo -sendmail
 
+# nls brings in a lot of dependencies to support "native language
+# support (NLS) message catalogues"
+sys-apps/man-db -nls
