@@ -36,3 +36,6 @@ net-im/zoom
 
 # unmask all Slack versions
 net-im/slack
+
+# currently the only version of num-utils (contains numsum)
+=sci-mathematics/num-utils-0.5-r2
