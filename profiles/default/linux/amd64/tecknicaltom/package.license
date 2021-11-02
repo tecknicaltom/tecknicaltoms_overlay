@@ -1,6 +1,7 @@
 # Portage doesn't appear to read package.license from the overlay. Copy this to /etc/portage/
 app-admin/terraform JSON
 app-arch/unrar unRAR
+app-misc/lz4json Unknown
 media-fonts/aquafont aquafont
 media-fonts/corefonts MSttfEULA
 media-fonts/font-bh-ttf bh-luxi
