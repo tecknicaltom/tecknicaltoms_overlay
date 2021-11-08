@@ -25,7 +25,7 @@ RDEPEND="${DEPEND}
 		${PYTHON_DEPS}
 		media-libs/glfw
 		sys-apps/file
-		dev-libs/mbedtls
+		net-libs/mbedtls
 		dev-libs/capstone
 		dev-cpp/nlohmann_json
 		x11-libs/gtk+
