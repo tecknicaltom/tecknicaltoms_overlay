@@ -31,3 +31,4 @@ RDEPEND="${DEPEND}
 		x11-libs/gtk+
 		"
 BDEPEND="${DEPEND}"
+CMAKE_BUILD_TYPE=Release
