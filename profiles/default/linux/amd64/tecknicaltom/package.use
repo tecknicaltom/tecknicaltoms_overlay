@@ -3,7 +3,7 @@ sys-kernel/genkernel-next cryptsetup plymouth
 x11-drivers/nvidia-drivers -abi_x86_32 acpi
 sys-boot/plymouth -gtk -pango
 media-sound/pulseaudio alsa bluetooth
-x11-terms/rxvt-unicode 256-color blink buffer-on-clear fading-colors focused-urgency font-styles mousewheel perl secondary-wheel wcwidth xft -vanilla -gdk-pixbuf -iso14755 unicode3
+x11-terms/rxvt-unicode 256-color 24-bit-color blink buffer-on-clear fading-colors focused-urgency font-styles mousewheel perl secondary-wheel wcwidth xft -vanilla -gdk-pixbuf -iso14755 unicode3
 media-sound/sox encode flac
 media-libs/libpng apng
 app-editors/gvim gtk python session
