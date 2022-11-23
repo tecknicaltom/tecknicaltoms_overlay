@@ -1,5 +1,8 @@
 dev-lang/python:3.7
+dev-lang/python:3.8
 dev-lang/python:3.9
+dev-lang/python:3.11
+dev-lang/python:3.12
 
 # mask packages from the pentoo overlay that we want to use the gentoo version of
 sys-power/acpid::pentoo
