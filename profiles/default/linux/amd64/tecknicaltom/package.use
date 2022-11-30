@@ -60,10 +60,6 @@ media-libs/libvpx postproc
 # remove sendmail functionality from sudo
 app-admin/sudo -sendmail
 
-# nls brings in a lot of dependencies to support "native language
-# support (NLS) message catalogues"
-sys-apps/man-db -nls
-
 # xscreensaver-6 needs motif[xft]
 x11-libs/motif xft
 
@@ -72,3 +68,5 @@ x11-libs/motif xft
 media-sound/pulseaudio bluetooth
 media-sound/pulseaudio-daemon alsa bluetooth
 
+# fonts are one thing that we want nls support for
+media-fonts/* nls
