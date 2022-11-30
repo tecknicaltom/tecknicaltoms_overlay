@@ -21,6 +21,7 @@
 
 # youtube-dl
 net-misc/youtube-dl ~amd64
+net-misc/yt-dlp ~amd64
 
 # g-cpan
 =app-portage/g-cpan-9999 **
