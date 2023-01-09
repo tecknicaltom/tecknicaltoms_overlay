@@ -68,5 +68,15 @@ x11-libs/motif xft
 media-sound/pulseaudio bluetooth
 media-sound/pulseaudio-daemon alsa bluetooth
 
-# fonts are one thing that we want nls support for
-media-fonts/* nls
+# fonts are one thing that we want nls support for.
+# unfortunately we can't match media-fonts/* from an overlay
+media-fonts/font-adobe-100dpi nls
+media-fonts/font-adobe-75dpi nls
+media-fonts/font-adobe-utopia-100dpi nls
+media-fonts/font-adobe-utopia-75dpi nls
+media-fonts/font-bh-100dpi nls
+media-fonts/font-bh-75dpi nls
+media-fonts/font-bh-lucidatypewriter-100dpi nls
+media-fonts/font-bh-lucidatypewriter-75dpi nls
+media-fonts/font-misc-misc nls
+media-fonts/font-schumacher-misc nls
