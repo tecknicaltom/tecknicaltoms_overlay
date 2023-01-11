@@ -8,7 +8,7 @@ media-fonts/font-bh-ttf bh-luxi
 media-fonts/font-bh-type1 bh-luxi
 media-fonts/font-bh-type1 bh-luxi
 media-fonts/tengwar-fonts free-noncomm
-net-analyzer/nmap NPSL
+net-analyzer/nmap NPSL NPSL-0.94
 net-im/slack all-rights-reserved
 net-im/zoom all-rights-reserved
 net-misc/dropbox CC-BY-ND-3.0 dropbox
@@ -18,4 +18,3 @@ x11-themes/gkrellm-themes all-rights-reserved
 
 # old contents that may/may not be necessary
 # media-libs/fdk-aac FraunhoferFDK
-# net-analyzer/nmap NPSL
