@@ -86,5 +86,7 @@ media-gfx/fbida -X
 
 # icu is annoyingly instable in its abi apparently, causing frequent rebuilds. disable it where it makes sense to
 media-libs/harfbuzz -icu
-net-libs/nodejs -icu
 dev-libs/libxml2 -icu
+
+# libxml2 has ftp support??
+dev-libs/libxml2 -ftp
