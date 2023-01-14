@@ -83,3 +83,8 @@ media-fonts/font-schumacher-misc nls
 
 # xscreensaver depends on fbida (for its exiftrans program for the vidwhacker hack). If fbida has X USE, it brings in motif, completely unnecessary for this dependency.
 media-gfx/fbida -X
+
+# icu is annoyingly instable in its abi apparently, causing frequent rebuilds. disable it where it makes sense to
+media-libs/harfbuzz -icu
+net-libs/nodejs -icu
+dev-libs/libxml2 -icu
