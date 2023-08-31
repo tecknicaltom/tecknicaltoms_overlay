@@ -29,7 +29,7 @@ DEPEND="${RDEPEND}
 "
 
 PATCHES=(
-	"${FILESDIR}"/"${PN}"-"${V}"-gcc10-fix.patch
+	"${FILESDIR}"/"${PN}"-"${PV}"-gcc10-fix.patch
 )
 
 src_configure() {
