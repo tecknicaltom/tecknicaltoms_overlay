@@ -37,15 +37,15 @@ src_configure() {
 		-DBASH_COMPLETION_COMPLETIONSDIR="$(get_bashcompdir)"
 	)
 
-	cmake-utils_src_configure
+	cmake_src_configure
 }
 
 src_compile() {
-	cmake-utils_src_compile all $(usex test lpass-test '')
+	cmake_src_compile all $(usex test lpass-test '')
 }
 
 src_install() {
-	cmake-utils_src_install install
+	cmake_src_install install
 
 	doman "${WORKDIR}"/man/lpass.1
 
@@ -65,5 +65,5 @@ src_test() {
 	sed -e "s|TEST_LPASS=.*|TEST_LPASS=\"${BUILD_DIR}/lpass-test\"|" \
 		-i "${S}"/test/include.sh || die
 
-	cmake-utils_src_test
+	cmake_src_test
 }
