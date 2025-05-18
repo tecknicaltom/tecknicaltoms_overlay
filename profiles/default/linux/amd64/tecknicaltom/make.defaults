@@ -9,6 +9,7 @@ USE="
 -elogind
 -nls
 -python
+-tiff
 X
 apparmor
 cairo
@@ -27,7 +28,6 @@ pulseaudio
 spell
 sqlite
 theora
-tiff
 truetype
 udev
 v4l
