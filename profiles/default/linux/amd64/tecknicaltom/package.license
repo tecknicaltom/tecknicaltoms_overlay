@@ -13,7 +13,7 @@ net-im/slack all-rights-reserved
 net-im/zoom all-rights-reserved
 net-misc/dropbox CC-BY-ND-3.0 dropbox
 sys-kernel/linux-firmware no-source-code linux-fw-redistributable
-x11-drivers/nvidia-drivers NVIDIA-r2
+x11-drivers/nvidia-drivers NVIDIA-r2 NVIDIA-2025
 x11-themes/gkrellm-themes all-rights-reserved
 
 # old contents that may/may not be necessary
