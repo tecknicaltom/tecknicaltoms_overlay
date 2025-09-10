@@ -18,3 +18,6 @@ x11-themes/gkrellm-themes all-rights-reserved
 
 # old contents that may/may not be necessary
 # media-libs/fdk-aac FraunhoferFDK
+
+# enabling fdk and npp USE flags breaks gpl incompatibility
+media-video/ffmpeg all-rights-reserved
