@@ -90,3 +90,6 @@ dev-libs/libxml2 -icu
 
 # libxml2 has ftp support??
 dev-libs/libxml2 -ftp
+
+# dropbox added some annoying dependencies for X support
+net-misc/dropbox -X
