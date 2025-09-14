@@ -93,3 +93,6 @@ dev-libs/libxml2 -ftp
 
 # dropbox added some annoying dependencies for X support
 net-misc/dropbox -X
+
+# zig (needed for ncdu) wants this
+llvm-core/lld zstd
