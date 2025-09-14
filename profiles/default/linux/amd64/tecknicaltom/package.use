@@ -95,4 +95,5 @@ dev-libs/libxml2 -ftp
 net-misc/dropbox -X
 
 # zig (needed for ncdu) wants this
+llvm-core/llvm zstd
 llvm-core/lld zstd
