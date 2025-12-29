@@ -7,7 +7,7 @@ media-sound/sox encode flac
 media-libs/libpng apng
 app-editors/gvim gtk python session
 app-editors/vim python terminal vim-pager
-x11-misc/xscreensaver offensive opengl -perl
+x11-misc/xscreensaver -offensive opengl -perl
 
 # dbus support brings in dconf
 dev-libs/glib -dbus
